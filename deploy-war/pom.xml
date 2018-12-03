@@ -33,7 +33,7 @@
 								<echo message="Stopping Tomcat server"/>
 								<exec executable="cmd">
 									<arg value="/c"/>
-									<arg value="${tomcatLocation}\bin\shutdown.sh"/>
+									<arg value="${tomcatLocation}\bin\shutdown.bat"/>
 								</exec>
 							</target>
 						</configuration>
@@ -62,7 +62,7 @@
 								<echo message="Starting Tomcat server"/>
 								<exec executable="cmd">
 									<arg value="/c"/>
-									<arg value="${tomcatLocation}\bin\startup.sh"/>
+									<arg value="${tomcatLocation}\bin\startup.bat"/>
 								</exec>
 							</target>
 						</configuration>
