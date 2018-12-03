@@ -75,7 +75,7 @@
 						<phase>install</phase>
 						<configuration>
 							<target name="Wait">
-								<echo message="Wait for Tomcat server to start gracefully"/>
+								<echo message="Wait for Tomcat server to start gracefully without crashes"/>
 								<sleep seconds="10"/>
 							</target>
 						</configuration>
