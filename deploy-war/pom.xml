@@ -32,7 +32,7 @@
 							<target name="Stop Tomcat">
 								<echo message="Stopping Tomcat server"/>
 								<exec executable="cmd">
-									<arbg value="/c"/>
+									<arg value="/c"/>
 									<arg value="${tomcatLocation}\bin\shutdown.sh"/>
 								</exec>
 							</target>
